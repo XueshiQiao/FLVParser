@@ -10,6 +10,7 @@
 class FLVBaseTagData {
 
 public:
+    virtual ~FLVBaseTagData() {}
     virtual std::string desc() const;
 };
 
